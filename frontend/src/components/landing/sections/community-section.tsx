@@ -38,7 +38,7 @@ export function CommunitySection({ className }: { className?: string }) {
           className="h-11 rounded-lg border-white/15 bg-transparent px-6 text-sm font-semibold text-white hover:border-white/30 hover:bg-white/5 hover:text-white"
         >
           <a
-            href="https://github.com/Jahanzaib211/nova"
+            href="https://github.com/Ali-Labs-X/nova"
             target="_blank"
             rel="noopener noreferrer"
           >

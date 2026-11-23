@@ -344,7 +344,7 @@ export function AuthForm({ initialMode }: { initialMode: AuthMode }) {
         </div>
 
         <div className="text-muted-foreground/60 text-center text-[10px] tracking-wide">
-          Made by Ali Technologies
+          Made by ALI LABS X
         </div>
       </div>
     </div>

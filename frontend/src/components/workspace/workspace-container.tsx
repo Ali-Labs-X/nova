@@ -95,7 +95,7 @@ export function WorkspaceHeader({
       <div className="pr-4">
         <Tooltip content={t.workspace.githubTooltip}>
           <a
-            href="https://github.com/Jahanzaib211/nova"
+            href="https://github.com/Ali-Labs-X/nova"
             target="_blank"
             rel="noopener noreferrer"
             className="opacity-75 transition hover:opacity-100"

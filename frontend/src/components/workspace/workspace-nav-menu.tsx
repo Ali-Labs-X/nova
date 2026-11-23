@@ -109,7 +109,7 @@ export function WorkspaceNavMenu() {
                     </DropdownMenuItem>
                   </a>
                   <a
-                    href="https://github.com/Jahanzaib211/nova"
+                    href="https://github.com/Ali-Labs-X/nova"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -120,7 +120,7 @@ export function WorkspaceNavMenu() {
                   </a>
                   <DropdownMenuSeparator />
                   <a
-                    href="https://github.com/Jahanzaib211/nova/issues"
+                    href="https://github.com/Ali-Labs-X/nova/issues"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

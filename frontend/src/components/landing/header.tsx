@@ -58,7 +58,7 @@ export async function Header({
     >
       <div className="flex items-center gap-6">
         <a
-          href={homeURL ?? "https://github.com/Jahanzaib211/nova"}
+          href={homeURL ?? "https://github.com/Ali-Labs-X/nova"}
           target={isExternalHome ? "_blank" : "_self"}
           rel={isExternalHome ? "noopener noreferrer" : undefined}
           className="flex items-center gap-2"
@@ -81,7 +81,7 @@ export async function Header({
       <div className="ml-auto md:hidden">
         <MobileNav
           links={links}
-          githubURL="https://github.com/Jahanzaib211/nova"
+          githubURL="https://github.com/Ali-Labs-X/nova"
           githubLabel="Star on GitHub"
           menuLabel={t.home.menu}
         />
@@ -106,7 +106,7 @@ export async function Header({
           )}
         >
           <a
-            href="https://github.com/Jahanzaib211/nova"
+            href="https://github.com/Ali-Labs-X/nova"
             target="_blank"
             rel="noopener noreferrer"
           >
