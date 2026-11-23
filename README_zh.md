@@ -8,7 +8,7 @@
 
 **Nova** 是一个全栈 **电脑智能体**，能够研究、编码和创作。它编排 **子智能体**、**记忆** 和 **线程级沙箱**，几乎可以完成任何任务——由 **可扩展技能** 和实时流式视图驱动，展示智能体自己的电脑：终端、编辑器、浏览器预览和任务进度，全部实时呈现。
 
-Nova 由 **[Ali Technologies](https://www.alilabsx.com)** 基于开源的 [DeerFlow](https://github.com/bytedance/deer-flow) 超级智能体框架构建。上游 MIT 许可证和所有原始版权声明均已保留——参见 [许可证](#许可证) 和 [NOTICE.md](./NOTICE.md)。
+Nova 由 **[ALI LABS X](https://www.alilabsx.com)** 基于开源的 [DeerFlow](https://github.com/bytedance/deer-flow) 超级智能体框架构建。上游 MIT 许可证和所有原始版权声明均已保留——参见 [许可证](#许可证) 和 [NOTICE.md](./NOTICE.md)。
 
 > 打个招呼：*"我是 Nova，电脑智能体。"*
 
@@ -90,7 +90,7 @@ Help me clone Nova if needed, then bootstrap it for local development by followi
 1. **克隆 Nova 仓库**
 
    ```bash
-   git clone https://github.com/Jahanzaib211/nova.git
+   git clone https://github.com/Ali-Labs-X/nova.git
    cd nova
    ```
 
@@ -364,7 +364,7 @@ Nova 具有高权限能力，包括**系统命令执行、资源操作和业务�
 
 DeerFlow 基础项目在 [MIT 许可证](./LICENSE) 下开源。原始许可证文本和所有上游版权通知均完整保留。
 
-Nova 特定的新增内容（Agent's Computer UI、线程级容器隔离、看门狗、收据及相关工具）为 **Ali Technologies 专有**——参见 [NOTICE.md](./NOTICE.md)。
+Nova 特定的新增内容（Agent's Computer UI、线程级容器隔离、看门狗、收据及相关工具）为 **ALI LABS X 专有**——参见 [NOTICE.md](./NOTICE.md)。
 
 ## 致谢
 

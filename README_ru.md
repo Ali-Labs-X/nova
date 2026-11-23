@@ -8,7 +8,7 @@
 
 **Nova** — это полностековый **компьютерный агент**, который исследует, программирует и создаёт. Он оркестрирует **субагентов**, **память** и **песочницы по потокам** для выполнения практически любых задач — на базе **расширяемых навыков** и живого потокового просмотра собственного компьютера агента: терминал, редактор, предпросмотр браузера и прогресс задач, всё в реальном времени.
 
-Nova построен **[Ali Technologies](https://www.alilabsx.com)** на базе open-source фреймворка [DeerFlow](https://github.com/bytedance/deer-flow). Лицензия MIT upstream и все оригинальные уведомления об авторских правах сохранены — см. [Лицензию](#лицензия) и [NOTICE.md](./NOTICE.md).
+Nova построен **[ALI LABS X](https://www.alilabsx.com)** на базе open-source фреймворка [DeerFlow](https://github.com/bytedance/deer-flow). Лицензия MIT upstream и все оригинальные уведомления об авторских правах сохранены — см. [Лицензию](#лицензия) и [NOTICE.md](./NOTICE.md).
 
 > Скажите привет: *"Я — Nova, компьютерный агент."*
 
@@ -90,7 +90,7 @@ Help me clone Nova if needed, then bootstrap it for local development by followi
 1. **Клонируйте репозиторий Nova**
 
    ```bash
-   git clone https://github.com/Jahanzaib211/nova.git
+   git clone https://github.com/Ali-Labs-X/nova.git
    cd nova
    ```
 
@@ -361,7 +361,7 @@ Nova обладает высокоприлегированными возмож�
 
 Фундаментальный проект DeerFlow распространяется под [MIT Лицензией](./LICENSE). Оригинальный текст лицензии и все уведомления об авторских правах upstream сохранены без изменений.
 
-Специфические добавления Nova от Ali Technologies (интерфейс Agent's Computer, изоляция контейнеров по потокам, watchdog'и, квитанции и инструменты) являются **собственностью Ali Technologies** — см. [NOTICE.md](./NOTICE.md).
+Специфические добавления Nova от ALI LABS X (интерфейс Agent's Computer, изоляция контейнеров по потокам, watchdog'и, квитанции и инструменты) являются **собственностью ALI LABS X** — см. [NOTICE.md](./NOTICE.md).
 
 ## Благодарности
 

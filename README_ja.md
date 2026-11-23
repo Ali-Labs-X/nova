@@ -8,7 +8,7 @@
 
 **Nova** は、リサーチ、コーディング、クリエイティブを行えるフルスタックの**コンピュータエージェント**です。**サブエージェント**、**メモリ**、**スレッドごとのサンドボックス**をオーケストレーションし、**拡張可能なスキル**とエージェント自身のコンピュータのライブストリーミングビューで、ほぼあらゆるタスクを実行できます——ターミナル、エディタ、ブラウザプレビュー、タスク進捗をリアルタイムで表示。
 
-Nova は **[Ali Technologies](https://www.alilabsx.com)** がオープンソースの [DeerFlow](https://github.com/bytedance/deer-flow) スーパーエージェントハーネスの上に構築しました。上流 MIT ライセンスとすべての元の著作権表示は保持されています——[ライセンス](#ライセンス) と [NOTICE.md](./NOTICE.md) を参照。
+Nova は **[ALI LABS X](https://www.alilabsx.com)** がオープンソースの [DeerFlow](https://github.com/bytedance/deer-flow) スーパーエージェントハーネスの上に構築しました。上流 MIT ライセンスとすべての元の著作権表示は保持されています——[ライセンス](#ライセンス) と [NOTICE.md](./NOTICE.md) を参照。
 
 > 挨拶しましょう：*"私はNova、コンピュータエージェントです。"*
 
@@ -90,7 +90,7 @@ Help me clone Nova if needed, then bootstrap it for local development by followi
 1. **Novaリポジトリをクローン**
 
    ```bash
-   git clone https://github.com/Jahanzaib211/nova.git
+   git clone https://github.com/Ali-Labs-X/nova.git
    cd nova
    ```
 

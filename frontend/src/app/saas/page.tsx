@@ -36,7 +36,7 @@ const plans = [
     ],
     cta: {
       label: "Get the code",
-      href: "https://github.com/Jahanzaib211/nova",
+      href: "https://github.com/Ali-Labs-X/nova",
       external: true,
     },
     highlight: false,
@@ -84,7 +84,7 @@ const plans = [
     price: "from $5,000",
     period: "one-off",
     description:
-      "Deployment, local-model setup and hardening, delivered with Apex Global Tech Solutions.",
+      "Deployment, local-model setup and hardening, delivered by ALI LABS X.",
     features: [
       "Install, configure and harden",
       "Local-model setup on your own GPU",
@@ -353,7 +353,7 @@ export default function SaasPage() {
               The MIT-licensed foundation and Nova&apos;s open-source additions
               drive adoption. The Agent&apos;s Computer, verify loop, security
               layer and operations are proprietary. Enterprise installs are
-              sold, deployed and supported with Apex Global Tech Solutions.
+              sold, deployed and supported by ALI LABS X.
             </p>
             <p className="relative mt-4 text-sm text-slate-500">
               30-day on-premise pilots convert to annual licences, and the pilot
@@ -367,7 +367,7 @@ export default function SaasPage() {
                 <Link href="/workspace">Start building</Link>
               </Button>
               <a
-                href="https://github.com/Jahanzaib211/nova"
+                href="https://github.com/Ali-Labs-X/nova"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex h-10 items-center gap-2 rounded-lg border border-white/15 px-5 text-sm font-semibold text-white transition hover:border-white/30 hover:bg-white/5"
@@ -384,7 +384,7 @@ export default function SaasPage() {
                 rel="noopener noreferrer"
                 className="text-slate-300 underline underline-offset-4 transition hover:text-white"
               >
-                Ali Technologies
+                ALI LABS X
               </a>{" "}
               ·{" "}
               <a

@@ -43,7 +43,7 @@ export function Footer({ className }: FooterProps) {
             rel="noopener noreferrer"
             className="transition-colors hover:text-white"
           >
-            AliLabsX
+            ALI LABS X
           </a>
         </nav>
         <p>{t.landing.footer.license}</p>

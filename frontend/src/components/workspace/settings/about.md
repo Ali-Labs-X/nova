@@ -1,10 +1,8 @@
-# [About Nova](https://github.com/Jahanzaib211/nova)
+# [About Nova](https://github.com/Ali-Labs-X/nova)
 
 > **Nova — The Agent's Computer**
 
 Nova is a full-stack **computer agent** that researches, codes, and creates. It orchestrates **sub-agents**, **memory**, and **per-thread sandboxes** to do almost anything — powered by **extensible skills** and a live, streaming view of the agent's own computer.
-
-Nova is built on top of the open-source [DeerFlow](https://github.com/bytedance/deer-flow) super agent harness.
 
 ---
 
@@ -21,17 +19,17 @@ Nova is built on top of the open-source [DeerFlow](https://github.com/bytedance/
 
 ## 🌟 GitHub Repository
 
-Explore Nova on GitHub: [github.com/Jahanzaib211/nova](https://github.com/Jahanzaib211/nova)
+Explore Nova on GitHub: [github.com/Ali-Labs-X/nova](https://github.com/Ali-Labs-X/nova)
 
 ## 📧 Support
 
-Questions or help: visit [alilabsx.com](https://www.alilabsx.com), email [alilabsx@gmail.com](mailto:alilabsx@gmail.com), reach out on [LinkedIn](https://www.linkedin.com/in/jahanzaib-ali-6383b3399), or [open an issue](https://github.com/Jahanzaib211/nova/issues).
+Questions or help: visit [alilabsx.com](https://www.alilabsx.com), email [alilabsx@gmail.com](mailto:alilabsx@gmail.com), reach out on [LinkedIn](https://www.linkedin.com/in/jahanzaib-ali-6383b3399), or [open an issue](https://github.com/Ali-Labs-X/nova/issues).
 
 ---
 
 ## 📜 License
 
-Nova is built on DeerFlow, which is open source and distributed under the **MIT License**. The original license and copyright notices are preserved in full.
+Nova includes open-source software under the MIT License and other licenses. See the [third-party notices](/third-party-notices.txt).
 
 Nova-specific additions (the Agent's Computer, per-thread container isolation, watchdogs, receipts, and related tooling) are **proprietary to the Nova project**. See the NOTICE file in the repository for details.
 
@@ -40,10 +38,6 @@ Nova-specific additions (the Agent's Computer, per-thread container isolation, w
 ## 🙌 Acknowledgments
 
 Nova stands on the shoulders of giants. Heartfelt gratitude to the open source projects and contributors that make it possible.
-
-### Upstream
-
-- **[DeerFlow](https://github.com/bytedance/deer-flow)**: The open-source super agent harness Nova is built on, created by ByteDance and its community.
 
 ### Core Frameworks
 
@@ -55,12 +49,3 @@ Nova stands on the shoulders of giants. Heartfelt gratitude to the open source p
 
 - **[Shadcn](https://ui.shadcn.com/)**: Minimalistic components that power our UI.
 - **[SToneX](https://github.com/stonexer)**: For his invaluable contribution to token-by-token visual effects.
-
-### Special Thanks
-
-The core authors of DeerFlow 1.0 and 2.0:
-
-- **[Daniel Walnut](https://github.com/hetaoBackend/)**
-- **[Henry Li](https://github.com/magiccube/)**
-
-Without their vision, passion and dedication, the foundation Nova is built on would not exist.

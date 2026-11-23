@@ -57,7 +57,7 @@ test.describe("Pricing page — plans and positioning", () => {
       page
         .getByRole("article", { name: "Community plan" })
         .getByRole("link", { name: "Get the code" }),
-    ).toHaveAttribute("href", "https://github.com/Jahanzaib211/nova");
+    ).toHaveAttribute("href", "https://github.com/Ali-Labs-X/nova");
     await expect(
       page
         .getByRole("article", { name: "Enterprise plan" })
@@ -98,7 +98,7 @@ test.describe("Pricing page — plans and positioning", () => {
       page.getByText(/30-day on-premise pilots convert to annual licences/i),
     ).toBeVisible();
     await expect(
-      page.getByRole("link", { name: "Ali Technologies" }),
+      page.getByRole("link", { name: "ALI LABS X" }),
     ).toHaveAttribute("href", "https://www.alilabsx.com");
   });
 

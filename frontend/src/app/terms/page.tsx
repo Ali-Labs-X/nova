@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Terms of Service — Nova",
   description:
-    "The terms that govern your use of Nova, the computer agent by Ali Technologies.",
+    "The terms that govern your use of Nova, the computer agent by ALI LABS X.",
 };
 
 // Keep in sync with backend app/gateway/legal.py TOS_VERSION.
@@ -35,7 +35,7 @@ export default function TermsPage() {
             <p>
               These Terms of Service (&ldquo;Terms&rdquo;) govern your access to
               and use of Nova (&ldquo;the Service&rdquo;), a computer agent
-              provided by Ali Technologies (&ldquo;we&rdquo;, &ldquo;us&rdquo;).
+              provided by ALI LABS X (PRIVATE) LIMITED (&ldquo;we&rdquo;, &ldquo;us&rdquo;).
               By creating an account or using the Service you agree to these
               Terms. If you do not agree, do not use the Service.
             </p>
@@ -140,7 +140,7 @@ export default function TermsPage() {
               The Service is provided &ldquo;as is&rdquo; without warranties of
               any kind. AI output may be inaccurate or incomplete; you are
               responsible for reviewing it. To the maximum extent permitted by
-              law, Ali Technologies is not liable for any indirect, incidental,
+              law, ALI LABS X is not liable for any indirect, incidental,
               or consequential damages arising from your use of the Service.
             </p>
           </section>

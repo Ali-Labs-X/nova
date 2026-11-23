@@ -8,7 +8,7 @@
 
 **Nova** est un **agent informatique** full-stack qui recherche, code et crée. Il orchestre des **sous-agents**, de la **mémoire** et des **sandboxes par thread** pour accomplir presque n'importe quelle tâche — propulsé par des **skills extensibles** et une vue en direct du propre ordinateur de l'agent : terminal, éditeur, aperçu de navigateur et progression des tâches, le tout en temps réel.
 
-Nova est construit par **[Ali Technologies](https://www.alilabsx.com)** sur la base du framework open source [DeerFlow](https://github.com/bytedance/deer-flow). La licence MIT en amont et toutes les mentions de copyright originales sont conservées — voir [Licence](#licence) et [NOTICE.md](./NOTICE.md).
+Nova est construit par **[ALI LABS X](https://www.alilabsx.com)** sur la base du framework open source [DeerFlow](https://github.com/bytedance/deer-flow). La licence MIT en amont et toutes les mentions de copyright originales sont conservées — voir [Licence](#licence) et [NOTICE.md](./NOTICE.md).
 
 > Dites bonjour : *"Je suis Nova, l'agent informatique."*
 
@@ -90,7 +90,7 @@ Ce prompt est destiné aux agents de code. Il dit à l'agent de cloner le dépô
 1. **Cloner le dépôt Nova**
 
    ```bash
-   git clone https://github.com/Jahanzaib211/nova.git
+   git clone https://github.com/Ali-Labs-X/nova.git
    cd nova
    ```
 
@@ -361,7 +361,7 @@ Nous accueillons les contributions ! Veuillez consulter [CONTRIBUTING.md](CONTRI
 
 La fondation DeerFlow de ce projet est open source sous la [Licence MIT](./LICENSE). Le texte de la licence originale et toutes les mentions de copyright en amont sont conservés intacts et non modifiés.
 
-Les ajouts spécifiques à Nova par Ali Technologies (l'interface Agent's Computer, l'isolation de conteneurs par thread, les watchdogs, les reçus et outils connexes) sont **propriétaires d'Ali Technologies** — voir [NOTICE.md](./NOTICE.md).
+Les ajouts spécifiques à Nova par ALI LABS X (l'interface Agent's Computer, l'isolation de conteneurs par thread, les watchdogs, les reçus et outils connexes) sont **propriétaires d'ALI LABS X** — voir [NOTICE.md](./NOTICE.md).
 
 ## Remerciements
 

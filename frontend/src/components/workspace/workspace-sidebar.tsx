@@ -37,7 +37,7 @@ export function WorkspaceSidebar({
               href="/saas"
               className="text-muted-foreground/60 hover:text-muted-foreground cursor-pointer px-2 pb-1 text-center text-[10px] tracking-wide transition"
             >
-              Made by Ali Technologies
+              Made by ALI LABS X
             </Link>
           )}
         </SidebarFooter>

@@ -5,22 +5,22 @@ English | [中文](./README_zh.md) | [日本語](./README_ja.md) | [Français](.
 [![Python](https://img.shields.io/badge/Python-3.12%2B-3776AB?logo=python&logoColor=white)](./backend/pyproject.toml)
 [![Node.js](https://img.shields.io/badge/Node.js-22%2B-339933?logo=node.js&logoColor=white)](./Makefile)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-[![CI](https://github.com/Jahanzaib211/nova/actions/workflows/backend-unit-tests.yml/badge.svg)](https://github.com/Jahanzaib211/nova/actions)
-[![CodeQL](https://github.com/Jahanzaib211/nova/actions/workflows/codeql.yml/badge.svg)](https://github.com/Jahanzaib211/nova/actions/workflows/codeql.yml)
+[![CI](https://github.com/Ali-Labs-X/nova/actions/workflows/backend-unit-tests.yml/badge.svg)](https://github.com/Ali-Labs-X/nova/actions)
+[![CodeQL](https://github.com/Ali-Labs-X/nova/actions/workflows/codeql.yml/badge.svg)](https://github.com/Ali-Labs-X/nova/actions/workflows/codeql.yml)
 [![Dependabot](https://img.shields.io/badge/Dependabot-enabled-blue?logo=dependabot)](https://github.com/dependabot)
 [![Security](https://img.shields.io/badge/Security-40%20verified%20tools-blueviolet?logo=shield)](#security-arsenal)
 
 **Nova** is a full-stack **computer agent** that researches, codes, creates, and defends. It orchestrates **sub-agents**, **memory**, and **per-thread sandboxes** — powered by **extensible skills**, a live streaming view of the agent's own computer, and a built-in **security toolkit of 40 verified tools** (blue team + red team).
 
-Built by **[Ali Technologies](https://www.alilabsx.com)** on top of [DeerFlow](https://github.com/bytedance/deer-flow) (MIT). Upstream license and all copyright notices preserved — see [License](#license) and [NOTICE.md](./NOTICE.md).
+Built by **[ALI LABS X](https://alilabsx.com)**. Includes open-source components; see [License](#license), [LICENSE](./LICENSE) and [NOTICE.md](./NOTICE.md).
 
 ![Nova workspace — the agent builds a tip calculator and previews it live in the Agent's Computer Browser tab](./docs/images/nova-workspace.png)
 
 ## Table of Contents
 
 - [Quick Start](#quick-start)
-- [Upgrading from a DeerFlow-named install](#upgrading-from-a-deerflow-named-install)
-- [What Nova adds on DeerFlow](#what-nova-adds-on-deerflow)
+- [Upgrading from an earlier release](#upgrading-from-an-earlier-release)
+- [What Nova adds](#what-nova-adds)
 - [Security Arsenal](#security-arsenal) -- blue team, red team, scanning
 - [Core Features](#core-features)
 - [Sandbox](#sandbox)
@@ -35,7 +35,7 @@ Built by **[Ali Technologies](https://www.alilabsx.com)** on top of [DeerFlow](h
 ## Quick Start
 
 ```bash
-git clone https://github.com/Jahanzaib211/nova.git && cd nova
+git clone https://github.com/Ali-Labs-X/nova.git && cd nova
 make setup          # interactive wizard (~2 min)
 make doctor         # verify setup
 make docker-start   # or: make dev
@@ -45,21 +45,9 @@ Access: <http://localhost:2026>
 
 The Docker stack runs as Compose project `nova` (containers `nova-gateway`, `nova-frontend`, `nova-nginx`, …), keeps local data under `backend/.nova/`, and reads `NOVA_*` environment variables. Under PM2 the supervisor process is `nova` (`scripts/pm2-nova.sh`).
 
-### Upgrading from a DeerFlow-named install
+### Upgrading from an earlier release
 
-Earlier releases used the DeerFlow names: Python package `deerflow`, env vars `DEER_FLOW_*`, data dir `.deer-flow`, Compose project `deer-flow-dev` and containers `deer-flow-*`. Code changes alone break nothing — for one release:
-
-- `import deerflow…` and `use: deerflow.x:Y` paths in `config.yaml` still resolve (deprecated alias of `nova`);
-- every `NOVA_X` falls back to `DEER_FLOW_X` when unset;
-- an existing `.deer-flow` data dir is used when no `.nova` dir exists (data is never moved automatically).
-
-The infrastructure cutover (Compose project, containers, network and volumes, Postgres data included) is a separate, operator-run step:
-
-```bash
-scripts/migrate-deerflow-to-nova.sh            # dry run (default): prints the plan, changes nothing
-```
-
-The script backs up first and copies volumes rather than moving them; the old `deer-flow-*` volumes are never deleted, so rolling back means bringing the old project up again. See the script's `--help` and the rename entry in [NOVA_CHANGELOG.md](./NOVA_CHANGELOG.md).
+See [docs/UPGRADING.md](docs/UPGRADING.md).
 
 ### Configuration
 
@@ -106,15 +94,15 @@ make up             # production
 make down           # stop
 ```
 
-## What Nova adds on DeerFlow
+## What Nova adds
 
-120,533 lines of new code across 698 new files. Total delta: **+145,947 / −11,844 across 1,148 files**. Audited 2026-09-08; every number reproducible — see [NOVA_VS_DEERFLOW.md](./NOVA_VS_DEERFLOW.md).
+120,533 lines of new code across 698 new files. Total delta: **+145,947 / −11,844 across 1,148 files**. Audited 2026-09-08; every number reproducible.
 
 - **Agent's Computer** — 7-tab live panel: Files, Terminal, Editor (red/green diff), Browser preview, Telemetry, Review, Privacy. Real-time streaming.
 - **Verify loop** — headless-Chromium self-checks against the running dev server. Console errors, blank-render detection, screenshots. Vision path so the model *sees* its build.
 - **Deterministic code review** — no-LLM review engine. Plain-English verdict for non-coders, per-file stats and risk flags for devs.
 - **Self-correction middlewares** — iteration budgets, dead-end loop detection, preflight quota checks, error decontamination, live task progress.
-- **27 built-in agent tools** (up from 2 at fork point, upstream still ships 3) — shell sessions, browser control, scaffold, dev-server lifecycle, code review, skill saving, and more.
+- **27 built-in agent tools** (up from 2 at fork point) — shell sessions, browser control, scaffold, dev-server lifecycle, code review, skill saving, and more.
 - **Runtime model management** — add/switch models via API and settings UI.
 - **4-layer sandbox image** — base → tools → dind → android (10.2 GB → 20.4 GB). Go, Rust, Playwright, pandoc, tesseract, nested Docker daemon, full Android SDK. Pinned by digest.
 - **Global skill promotion** — agent-authored skills security-scanned and promoted to global registry.
@@ -242,13 +230,6 @@ Skills load progressively — only when needed. Slash activation: `/skill-name t
 
 No API keys required. `cd backend && uv sync --extra trading`.
 
-### Claude Code Integration
-
-```bash
-npx skills add https://github.com/Jahanzaib211/nova --skill claude-to-deerflow
-```
-
-Send tasks, check status, manage threads — all from Claude Code.
 
 ### Sub-Agents
 
@@ -389,13 +370,13 @@ make self-audit  # full self-probe
 
 ## License
 
-DeerFlow foundation: [MIT License](./LICENSE). All upstream copyright notices preserved.
+Open-source foundation: [MIT License](./LICENSE). Copyright notices are in LICENSE and [NOTICE.md](./NOTICE.md).
 
 Nova-specific additions (Agent's Computer UI, sandbox image, watchdogs, **security arsenal**, branding): **proprietary** — see [NOTICE.md](./NOTICE.md). Commercial license terms: `alilabsx@gmail.com`.
 
 ## Acknowledgments
 
-Built on [DeerFlow](https://github.com/bytedance/deer-flow) by ByteDance. Powered by [LangChain](https://github.com/langchain-ai/langchain) and [LangGraph](https://github.com/langchain-ai/langgraph).
+Powered by [LangChain](https://github.com/langchain-ai/langchain) and [LangGraph](https://github.com/langchain-ai/langgraph).
 
 ## Star History
 

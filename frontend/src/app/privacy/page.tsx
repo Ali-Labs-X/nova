@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Privacy Policy — Nova",
   description:
-    "How Nova, the computer agent by Ali Technologies, collects and handles your data.",
+    "How Nova, the computer agent by ALI LABS X, collects and handles your data.",
 };
 
 // Keep in sync with backend app/gateway/legal.py PRIVACY_VERSION.
@@ -34,7 +34,7 @@ export default function PrivacyPage() {
             </h2>
             <p>
               This Privacy Policy explains what data Nova (&ldquo;the
-              Service&rdquo;), provided by Ali Technologies, collects and how we
+              Service&rdquo;), provided by ALI LABS X (PRIVATE) LIMITED, collects and how we
               use it. We aim to collect only what we need to run the Service.
             </p>
           </section>
